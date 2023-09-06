@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head
+find ./ -type f -exec ls -tr1 {} + | head -10
