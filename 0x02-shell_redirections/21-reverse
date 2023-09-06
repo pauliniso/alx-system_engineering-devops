@@ -1,2 +1,2 @@
 #!/bin/bash
-rev <<<"Reverse"
+echo "Hello, World!" | rev
